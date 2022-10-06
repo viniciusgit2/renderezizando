@@ -1,17 +1,22 @@
-import Cliente from "./Cliente"
 
  export interface EntradaProps{
-tipo:'text'
-texto:string
+tipo:'text'&"number"
+ texto;String
 valor:any
+
+
 }
 export default function Entrada(props:EntradaProps){
+
 return (
     <div>
         <label>
-            {props.texto}
+            {  props.texto}
         </label>
-        <input type={props.tipo ??"text" } value={props.valor}></input>
+        <input type={props.tipo ??"text" } value={props.valor} >
+    
+        </input>
+       
     </div>
 )
 }
