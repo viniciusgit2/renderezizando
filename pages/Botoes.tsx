@@ -3,7 +3,7 @@ import React from "react";
 
 interface Botaoprops{
 onclick():void
- cor:"red"
+ cor:"green"
 }
 
 export default function Botoes (props:Botaoprops){
