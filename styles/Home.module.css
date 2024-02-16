@@ -1,7 +1,15 @@
 .container {
   padding: 0 2rem;
 }
-
+.vermelha{
+  color: red;
+}
+.azul{
+  color: #0070f3;
+}
+.branca{
+  color: whitesmoke;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
