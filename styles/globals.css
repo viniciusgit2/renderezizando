@@ -32,6 +32,26 @@ body {
   font-size: 3rem;
   color: #fff;
 }
+.Subdivisao{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.Subdivisao3{
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+}
+.Subdivisao2{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.Subdivisao4{
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
+}
 
 a {
   color: inherit;
