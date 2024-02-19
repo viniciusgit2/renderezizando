@@ -20,6 +20,10 @@ body {
 }
 .branca{
   color: whitesmoke;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 1950px;
+padding: 2%;
 }
 .btn {
   border-radius: 25px;
@@ -33,25 +37,18 @@ body {
   color: #fff;
 }
 .Subdivisao{
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  height:300px;
+  width: 17500px;
+  border-radius: 50px;
+  background-color: gold;
+color: goldenrod;
+ margin:0.2px;
+
 }
-.Subdivisao3{
-  width: 100px;
-  height: 100px;
-  background-color: goldenrod;
-}
-.Subdivisao2{
-  width: 100px;
-  height: 100px;
-  background-color: green;
-}
-.Subdivisao4{
-  width: 100px;
-  height: 100px;
-  background-color: darkorange;
-}
+
+
+ 
+ 
 
 a {
   color: inherit;
