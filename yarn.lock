@@ -1705,22 +1705,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"godo0@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "godo0@workspace:."
-  dependencies:
-    "@types/node": "npm:20.11.19"
-    "@types/react": "npm:18.2.57"
-    eslint: "npm:8.56.0"
-    eslint-config-next: "npm:14.1.0"
-    next: "npm:^14.1.0"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    ts-node: "npm:^10.9.2"
-    typescript: "npm:5.3.3"
-  languageName: unknown
-  linkType: soft
-
 "gopd@npm:^1.0.1":
   version: 1.0.1
   resolution: "gopd@npm:1.0.1"
@@ -3169,6 +3153,22 @@ __metadata:
   checksum: 10c0/42655cdadfa5388f8a48bb282d6b450df7d7b8cf066ac37038bd0499d3c9f084815ebd9ff9dfa12a218fd4441338851db79603498d7557207009c1cf4d609835
   languageName: node
   linkType: hard
+
+"super-next@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "super-next@workspace:."
+  dependencies:
+    "@types/node": "npm:20.11.19"
+    "@types/react": "npm:18.2.57"
+    eslint: "npm:8.56.0"
+    eslint-config-next: "npm:14.1.0"
+    next: "npm:^14.1.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    ts-node: "npm:^10.9.2"
+    typescript: "npm:5.3.3"
+  languageName: unknown
+  linkType: soft
 
 "supports-color@npm:^7.1.0":
   version: 7.2.0
