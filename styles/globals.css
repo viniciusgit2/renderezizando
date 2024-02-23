@@ -15,6 +15,14 @@ body {
 .vermelha{
   color: red;
 }
+.Mega label {
+  margin-right: 10px;
+}
+
+.Mega input {
+  font-size: 1.4rem;
+  width: 50px;
+}
 .azul{
   color: #0070f3;
 }
