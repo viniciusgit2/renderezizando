@@ -1,4 +1,4 @@
-export default function desafio(){
+export default function Desafio(){
     return (
 <div>
     <span>
