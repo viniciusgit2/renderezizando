@@ -17,6 +17,12 @@ body {
   color: crimson;
   background: black;
 }
+.presente{
+  color: gray;
+  background-color: green;
+  height:  100px;
+  width: 100px;
+}
 .verde {
   color: greenyellow;
 }
