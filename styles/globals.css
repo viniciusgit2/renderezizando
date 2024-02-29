@@ -23,6 +23,7 @@ body {
   height:  100px;
   width: 100px;
 }
+
 .verde {
   color: greenyellow;
 }
@@ -44,8 +45,8 @@ body {
 .branca {
   color: whitesmoke;
   background-color: whitesmoke;
-  height: 300px;
-  width: 1950px;
+  height: 100px;
+  width: 100px;
   padding: 2%;
 }
 .btn {
@@ -60,14 +61,13 @@ body {
   color: #fff;
 }
 .Subdivisao {
-  height: 300px;
-  width: 17500px;
-  border-radius: 50px;
+  color: gold;
   background-color: gold;
-  color: goldenrod;
-  margin: 0.2px;
-  padding: 1%;
+  height: 100px;
+  width: 100px;
+  padding: 2%;
 }
+
 
 a {
   color: inherit;
