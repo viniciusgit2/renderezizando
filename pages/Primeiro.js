@@ -1,4 +1,3 @@
-export default  function Primeiro  (){
-return (
-"primeiro")
+export default function Primeiro() {
+  return "primeiro";
 }

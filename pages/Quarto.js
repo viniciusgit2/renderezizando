@@ -1,4 +1,3 @@
-export default function Segundo(){
-    return <h1>segundo</h1>
-    
- }
+export default function Segundo() {
+  return <h1>segundo</h1>;
+}
