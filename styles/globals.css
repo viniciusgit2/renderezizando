@@ -18,12 +18,37 @@ body {
   background: black;
 }
 .presente{
-  color: gray;
   background-color: green;
-  height:  100px;
-  width: 100px;
+ flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 200px;
 }
+.tampa{
+  width: 110px;
+  height: 22x;
+  background-color: grey;
+}
+.corpo{
+  background-color: yellow;
+  width: 90px;
+  height: 73px;
+}
+.laco1{
+  position: absolute;
+  width: 20px;
+  height: 74px;
+  background-color: crimson;
 
+}
+.laco2{
+  position: absolute;
+  top: 30px;
+  width: 95px;
+  height: 20px;
+  background-color: crimson;
+
+}
 .verde {
   color: greenyellow;
 }
@@ -56,7 +81,6 @@ body {
   border: none;
   outline: none;
   background-color: #0092c3;
-
   font-size: 3rem;
   color: #fff;
 }
