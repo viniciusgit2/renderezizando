@@ -6,13 +6,13 @@ import Porta from "../components/Porta";
 export default function Home() {
   return (
     <div>
-      <Link href="mega/mega">megacena</Link>
       <Link href="estado/contador">,contador</Link>
       <Link href="api/metodo">,metodo</Link>
-      <Link href='mega/mega'>megacena</Link>
-      <Link href='estado/Contador'>contador</Link>
-        <Presente/>     
+      <Link href='mega/mega'>,megacena</Link>
+      <Link href='estado/Contador'>,contador</Link>
+      <Presente/>     
         <Porta/>
+        
     </div>
   );
 }
