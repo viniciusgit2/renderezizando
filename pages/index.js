@@ -3,6 +3,7 @@ import Link from "next/link";
 import mega from "../pages/mega/mega";
 import Presente from "../components/Presente";
 import Porta from "../components/Porta";
+import Porta2 from "../components/Porta2";
 export default function Home() {
   return (
     <div>
@@ -12,7 +13,7 @@ export default function Home() {
       <Link href='estado/Contador'>,contador</Link>
       <Presente/>     
         <Porta/>
-        
+        <Porta2/>
     </div>
   );
 }

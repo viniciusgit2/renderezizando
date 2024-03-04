@@ -60,17 +60,54 @@ body {
   padding: 2%;
 }
 
-
-
-.porta{
-  background-color: #0070f3;
-  width: 200px;
-  height: 300px;
+.porta2{
   display: flex;
-flex-direction: column;
-
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: green;
+   width: var(--area-porta-largura);
+  height: var(--area-porta-altura);
+padding: 15px;
 }
+.estrutura{
+display: flex;
+flex-grow: 1;
+border-bottom: 5px solid snow;
+border-right: 5px solid snow;
+border-top: 5px solid snow;
+border-left: 5px solid snow;
 
+
+background-color: snow;
+}
+.area{
+  display: flex;
+  width: var(--area-porta-largura);
+  height: var(--area-porta-altura);
+  flex-direction:column ;
+  margin: 5%;
+  position: relative;
+}
+.selecionada.numero{
+  color: yellow;
+}
+.selecionada.maçaneta{
+  color: yellow;
+}
+.porta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #0070f3;
+   width: var(--area-porta-largura);
+  height: var(--area-porta-altura);
+padding: 15px;
+}
+.numero{
+  font-size: 3rem;
+}
 .presente {
   display: flex;
   position: relative;
@@ -92,10 +129,10 @@ color: crimson;
 }
 .laco2{
   position: absolute;
-  width: 90px;
+  width: 80px;
   background-color: crimson;
   color: crimson;
-  top: 40px;
+ 
   }
 .tampa{
   width: 90px;
@@ -103,23 +140,21 @@ color: crimson;
   background-color: black;
 }
 .maçaneta{
+  position: absolute;
  background-color: chocolate; 
  color: chocolate;
- width: 24px;
- height: 15px;
+ width: 20px;
+ height:20px;
 border-radius: 10px;
+align-self: flex-start;
+top: 140px;
+}
 
-}
-.cenario{
-  background-color: snow;
-  width: 10x;
-  height: 10px;
-}
 .selecionada{
-background-color: yellow;  
-border: 5px solid;
-width: 10px;
-height: 30px;
+  border-bottom: 5px solid yellow;
+  border-right: 5px solid yellow;
+  border-top: 5px solid yellow;
+  border-left: 5px solid yellow;
 }
 
 
@@ -130,7 +165,12 @@ a {
 }
 
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
+}
+:root{
+  --area-porta-altura:310px;
+  --area-porta-largura:200px;
+
 }
 
 @media (prefers-color-scheme: dark) {
