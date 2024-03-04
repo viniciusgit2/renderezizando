@@ -12,7 +12,7 @@ export default function Home() {
       <Link href='mega/mega'>megacena</Link>
       <Link href='estado/Contador'>contador</Link>
         <Presente/>     
-      <Porta/>
+        <Porta/>
     </div>
   );
 }
