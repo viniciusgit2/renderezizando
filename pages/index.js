@@ -11,8 +11,8 @@ export default function Home() {
       <Link href="api/metodo">,metodo</Link>
       <Link href='mega/mega'>,megacena</Link>
       <Link href='estado/Contador'>,contador</Link>
-      <Presente/>     
-        <Porta/>
+      <Presente/>  
+      <Porta/>   
         <Porta2/>
     </div>
   );

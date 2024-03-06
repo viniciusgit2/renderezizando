@@ -95,6 +95,27 @@ background-color: snow;
 .selecionada.maçaneta{
   color: yellow;
 }
+
+.area{
+  display: flex;
+  width: var(--area-porta-largura);
+  height: var(--area-porta-altura);
+  flex-direction:column ;
+  margin: 5%;
+  position: relative;
+}
+.selecionada{
+  border-bottom: 5px solid yellow;
+  border-right: 5px solid yellow;
+  border-top: 5px solid yellow;
+  border-left: 5px solid yellow;
+}
+.selecionada.numero{
+  color: yellow;
+}
+.selecionada.maçaneta{
+  color: yellow;
+}
 .porta{
   display: flex;
   flex-direction: column;
@@ -150,12 +171,34 @@ align-self: flex-start;
 top: 140px;
 }
 
-.selecionada{
-  border-bottom: 5px solid yellow;
-  border-right: 5px solid yellow;
-  border-top: 5px solid yellow;
-  border-left: 5px solid yellow;
+.corpo{
+  width :90px;
+  height: 60px;
+  color: crimson;
+  background-color: gold;  
 }
+.laco1{
+position: absolute;
+width: 15px;
+height: 85px;
+background-color: crimson;
+color: crimson;
+}
+.laco2{
+  position: absolute;
+  width: 80px;
+  background-color: crimson;
+  color: crimson;
+ 
+  }
+.tampa{
+  width: 90px;
+  height: 60x;
+  background-color: black;
+}
+
+
+
 
 
 

@@ -1,12 +1,9 @@
-export default function Porta(props){
-  props.selecionada
-  return(<div className="area"> <div className="selecionada"><div className="estrutura"><div className="porta"><div className="maçaneta"/><div className="numero">1</div> </div></div></div></div>
- 
-)
+import Portamodelo from '../model/Portamodelo'
+
+
+export default function Porta(){
+
+return (<div className='area'><div className={'selecionada'}><div className={"porta"}><div className={"maçaneta"}></div></div></div></div>)
 
 }
      
-    
-
-    
-    
