@@ -1,9 +1,8 @@
 import Contador from "../pages/estado/Contador";
 import Link from "next/link";
 import mega from "../pages/mega/mega";
-import Presente from "../components/Presente";
-import Porta from "../components/Porta";
-import Porta2 from "../components/Porta2";
+import Presente from "./Presente";
+import Porta from "./Porta";
 import { useState } from "react";
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
       <Link href="api/metodo">,metodo</Link>
       <Link href='mega/mega'>,megacena</Link>
       <Link href='estado/Contador'>,contador</Link>
-      <Presente/>  
+       
       <Porta />   
     
 
