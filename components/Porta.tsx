@@ -5,7 +5,7 @@
     return (
       <div className="porta">
         <div className="selecionada"></div>
-         <button className="maçaneta">{props.teste}</button>
+         <button className="maçaneta">{props.teste}1</button>
       </div>
     );
   }

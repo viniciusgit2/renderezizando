@@ -4,7 +4,6 @@ import mega from "../pages/mega/mega";
 import Presente from "../components/Presente";
 import Porta from "../components/Porta";
 import Porta2 from "../components/Porta2";
-import Portamodelo from "../model/Portamodelo";
 import { useState } from "react";
 export default function Home() {
   return (
