@@ -1,14 +1,13 @@
 import Portamodelo from '../model/Portamodelo'
 interface Portapro{
-    porta:Portamodelo
+    valor:Portamodelo
     mudando:(novaPorta:Portamodelo)=>void
 }
 
 export default function Porta(props:Portapro){
-const {porta}=props
+const porta=props.valor
 const selecionada=porta.selecionada
-const alterar=e =>props.mudando(porta.alterar())
-return (<div className={'area'}onClick={alterar}><div className={'selecionada'}><div className={"porta"}><div className={"maçaneta"}></div></div></div></div>)
-
+return (<div className='area'><div className='{estrutura,selecionada}'><div className='selecionada'><div className='porta'><div className='maçaneta'></div></div></div></div></div>)
 }
+
      

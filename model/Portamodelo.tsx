@@ -1,9 +1,9 @@
 export default class Portamodelo{
-    #numero:number
-    #presente:boolean
-    #selecionada:boolean
-    #aberta:boolean
-  constructor(numero:number,presente=false,selecionada=false,aberta){
+    #numero
+    #presente
+    #selecionada
+    #aberta
+  constructor(numero,presente=false,selecionada=false,aberta){
  this.#presente=presente
    this.#aberta=aberta
    this.#selecionada=selecionada
@@ -23,12 +23,12 @@ export default class Portamodelo{
     }
     desmarcar(){
       const selecionada=false
-      return new Portamodelo(this.numero,this.presente,selecionada,this.#aberta)
+      return new Portamodelo(this.numero,this.presente,selecionada,this.aberta)
     }
   
     alterar(){
         const selecionada=!this.selecionada
-        return new Portamodelo(this.numero,this.presente,selecionada,this.#aberta)
+        return new Portamodelo(this.numero,this.presente,selecionada,this.aberta)
     }
     abrir(){
       const abrir=true

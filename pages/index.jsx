@@ -16,7 +16,7 @@ export default function Home() {
       <Link href='mega/mega'>,megacena</Link>
       <Link href='estado/Contador'>,contador</Link>
       <Presente/>  
-      <Porta porta={p1} mudando={novaPorta=>console.log(novaPorta)}/>   
+      <Porta valor={p1}/>   
     
 
         <Porta2/>
