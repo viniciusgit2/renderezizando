@@ -1,13 +1,11 @@
-import Portamodelo from '../model/Portamodelo'
-interface Portapro{
-    valor:Portamodelo
-    mudando:(novaPorta:Portamodelo)=>void
-}
-
-export default function Porta(props:Portapro){
-const porta=props.valor
-const selecionada=porta.selecionada
-return (<div className='area'><div className='{estrutura,selecionada}'><div className='selecionada'><div className='porta'><div className='maçaneta'></div></div></div></div></div>)
-}
-
-     
+ export interface Portapro {
+    teste: 1;
+  }
+  export default function  Porta(props: Portapro) {
+    return (
+      <div className="porta">
+        <div className="selecionada"></div>
+         <button className="maçaneta">{props.teste}</button>
+      </div>
+    );
+  }

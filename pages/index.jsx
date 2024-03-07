@@ -7,8 +7,6 @@ import Porta2 from "../components/Porta2";
 import Portamodelo from "../model/Portamodelo";
 import { useState } from "react";
 export default function Home() {
-  const [p1,setp1]=useState(new Portamodelo(1))
-  //const p2 = new Portamodelo(2)
   return (
     <div>
       <Link href="estado/contador">,contador</Link>
@@ -16,10 +14,10 @@ export default function Home() {
       <Link href='mega/mega'>,megacena</Link>
       <Link href='estado/Contador'>,contador</Link>
       <Presente/>  
-      <Porta valor={p1}/>   
+      <Porta />   
     
 
-        <Porta2/>
+     
     </div>
   );
 }

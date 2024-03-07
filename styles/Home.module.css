@@ -144,16 +144,8 @@
   .logo img {
     filter: invert(1);
   }
-  .porta2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    background-color: green;
-     width: var(--area-porta-largura);
-    height: var(--area-porta-altura);
-  padding: 15px;
-  }
+  
+  
   .numero{
     font-size: 3rem;
   }
@@ -167,6 +159,57 @@
   
   
   background-color: snow;
+  }
+  
+  .estrutura{
+  display: flex;
+  flex-grow: 1;
+  border-bottom: 5px solid snow;
+  border-right: 5px solid snow;
+  border-top: 5px solid snow;
+  border-left: 5px solid snow;
+  
+  
+  background-color: snow;
+  }
+  .area{
+    display: flex;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+    flex-direction:column ;
+    margin: 5%;
+    position: relative;
+  }
+  .selecionada.numero{
+    color: yellow;
+  }
+  .selecionada.maçaneta{
+    color: yellow;
+  }
+  
+  .area{
+    display: flex;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+    flex-direction:column ;
+    margin: 5%;
+    position: relative;
+  }
+  .selecionada{
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
+    border-top: 5px solid yellow;
+    border-left: 5px solid yellow;
+  }
+  .selecionada.numero{
+    color: yellow;
+  }
+  .selecionada.maçaneta{
+    color: yellow;
+  }
+  
+  .numero{
+    font-size: 3rem;
   }
   .area{
     display: flex;
@@ -188,16 +231,17 @@
   .selecionada.maçaneta{
     color: yellow;
   }
-  .porta{
+  .porta2{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    background-color: #0070f3;
+    background-color: green;
      width: var(--area-porta-largura);
     height: var(--area-porta-altura);
   padding: 15px;
   }
+  
   .numero{
     font-size: 3rem;
   }
