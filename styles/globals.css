@@ -38,7 +38,7 @@ body {
 .branca {
   color: whitesmoke;
   background-color: whitesmoke;
-  height: 100px;
+  height: 950px;
   width: 100px;
   padding: 2%;
 }
@@ -55,7 +55,7 @@ body {
 .Subdivisao {
   color: gold;
   background-color: gold;
-  height: 100px;
+  height: 950px;
   width: 100px;
   padding: 2%;
 }
@@ -199,7 +199,10 @@ color: crimson;
 .numero{
   font-size: 3rem;
 }
+.linha{
+  display: flex;
 
+}
 
 
 
