@@ -1,5 +1,5 @@
 export async function getStaticProps(){
-   const resp=await fetch("http://localhost:3002/api/produtos")//repare o localhost esta 3002 pra funcionar so vai ir de segunda
+   const resp=await fetch("http://localhost:3000/api/produtos")//repare o localhost esta 3002 ou 3000 pra funcionar so vai ir de segunda ou de primeira
    //e com 2 com api produtos aberta
    console.log('{server....} gerando props para o componente ...')//teste para ver se no server gerava ou não
     const produtos=await resp.json()
