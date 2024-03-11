@@ -7,6 +7,7 @@ import { useState } from "react";
 import Estatico1 from "./Estatico1";
 import Estatico2 from "./Estatico2";
 import Subdivisao from '../pages/tabuleiro/componentes/Subdivisao'
+import produto from '../pages/api/produto'
 export default function Home() {
   return (
     <div>
@@ -18,7 +19,7 @@ export default function Home() {
        <Link href='Estatico1'>,estatico1</Link>
        <Link href='Estatico2'>,estatico2</Link>
        <Link href='Estatico2'>,estatico3</Link>
-
+        <Link href='/api/produto'>,produto</Link>
       <Porta />   
     
 
