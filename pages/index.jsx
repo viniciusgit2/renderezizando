@@ -17,6 +17,8 @@ export default function Home() {
        <Link href='tabuleiro/componentes/Subdivisao'>,tabuleiro</Link>
        <Link href='Estatico1'>,estatico1</Link>
        <Link href='Estatico2'>,estatico2</Link>
+       <Link href='Estatico2'>,estatico3</Link>
+
       <Porta />   
     
 
