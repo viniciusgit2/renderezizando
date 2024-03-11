@@ -16,5 +16,5 @@ export default function Estatico4(props){
     function renderizar(){
         return props.produtos.map(produto =>{return <li key={produto.id}>{produto.nome}=r${produto.preco}</li>})
     }
-return(<div><h1>estatico4</h1><h2>{renderizar()}</h2></div>)
+return(<div><h1>Estatico4</h1><h2>{renderizar()}</h2></div>)
 }
