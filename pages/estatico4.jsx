@@ -18,3 +18,4 @@ export default function Estatico4(props){
     }
 return(<div><h1>Estatico4</h1><h2>{renderizar()}</h2></div>)
 }
+//foi feito um build com yarn build e deepois executando yarn start
