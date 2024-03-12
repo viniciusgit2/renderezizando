@@ -13,8 +13,8 @@ import dinamico1 from "./dinamico1";
 export default function Home() {
   return (
     <div>
-      <Link href="estado/contador">,contador</Link>
       <Link href="api/metodo">,metodo</Link>
+      <Link href='estado/Contador'>contador</Link>
       <Link href='mega/mega'>,megacena</Link>
       <Link href='estado/Contador'>,contador</Link>
        <Link href='tabuleiro/componentes/Subdivisao'>,tabuleiro</Link>
