@@ -1,11 +1,12 @@
-import Contador from "../pages/estado/Contador";
 import Link from "next/link";
+import Contador from "../pages/estado/Contador";
 import mega from "../pages/mega/mega";
 import Presente from "./Presente";
 import Porta from "./Porta";
 import { useState } from "react";
 import Estatico1 from "./Estatico1";
 import Estatico2 from "./Estatico2";
+import Estatico4 from "./estatico4";
 import Subdivisao from '../pages/tabuleiro/componentes/Subdivisao'
 import produtos from '../pages/api/produtos'
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
        <Link href='Estatico2'>,estatico2</Link>
        <Link href='Estatico2'>,estatico3</Link>
         <Link href='/api/produtos'>,produtos</Link>
+        <Link href='estatico4'>,Estatico4</Link>
       <Porta />   
     
 
