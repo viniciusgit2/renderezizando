@@ -10,6 +10,7 @@ import Estatico4 from "./estatico4";
 import Subdivisao from '../pages/tabuleiro/componentes/Subdivisao'
 import produtos from '../pages/api/produtos'
 import dinamico1 from "./dinamico1";
+import Dinamico2 from "./Dinamico2";
 export default function Home() {
   return (
     <div>
@@ -24,6 +25,7 @@ export default function Home() {
         <Link href='/api/produtos'>,produtos</Link>
         <Link href='estatico4'>,Estatico4</Link>
         <Link href='dinamico1'>,dinamico1</Link>
+        <Link href='Dinamico2'>,Dinamico2</Link>
       <Porta />   
     
 
