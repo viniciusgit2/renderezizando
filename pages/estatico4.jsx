@@ -14,7 +14,7 @@ export default function Estatico4(props){
     console.log('{cliente....} gerando props para o componente ...')//teste para ver se no server gerava ou não
 
     function renderizar(){
-        return props.produtos.map(produto =>{return <li key={produto.id}>{produto.nome}=r${produto.preco}</li>})
+        return props.produtos.map(produto =>{return <li key={produto.id}> nome,{produto.nome}=r${produto.preco}</li>})
     }
 return(<div><h1>Estatico4</h1><h2>{renderizar()}</h2></div>)
 }
