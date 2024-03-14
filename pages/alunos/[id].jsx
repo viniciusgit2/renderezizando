@@ -1,4 +1,3 @@
-
 export function getStaticPaths(){
 return{
   fallback:false,//404
@@ -13,6 +12,8 @@ return{
   
 }
 export async function getStaticProps(context){
+  const resp= await fetch(`http://localhost:3001/alunos${context.params.id}`)
+  
   return {
     props:{}
   }
