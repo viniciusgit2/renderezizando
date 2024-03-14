@@ -1,24 +1,10 @@
-export function getStaticPaths(){
-return{
-  fallback:false,//404
-  paths:[
-    
-   {params:{id:`123`}},//é so acertar o id
-  {  params:{id:`1`}},
-  { params:{id:`2`},}
-   
-  ]
-}
-  
-}
-export async function getStaticProps(context){
-  const resp= await fetch(`http://localhost:3001/alunos${context.params.id}`)
-  
-  return {
-    props:{}
-  }
+export async function getStaticPaths(){
 
+  const  resp = await fetch(`http://localhost:3000/api/alunos/tutores`)
+  const ids =await resp.json()
+  const paths=ids.map(id=>{return {params: {id}}})
 }
-export default function id(){
-return ("oi")
+return {
+  fallback:false,//404
 }
+
